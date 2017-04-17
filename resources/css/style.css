@@ -40,6 +40,9 @@ nav {
   max-width: 960px;
   justify-content: space-between;
 }
+.nav-items-tablet {
+  display: none;
+}
 nav span {
   margin: 0px;
 }
@@ -135,4 +138,25 @@ footer {
     color: white;
     padding: 5em 0;
     margin-top: 4em;
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+  .nav-items-tablet {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-items {
+    display: none;
+  }
+  .glasses {
+    display: none;
+  }
+  .product {
+    width: 47%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  
 }
